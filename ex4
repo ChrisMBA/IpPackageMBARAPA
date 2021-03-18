@@ -1,0 +1,73 @@
+package IpPackage;
+
+public class IpPackage {
+    private int octet1;
+  
+    private int octet2;
+    
+    private int octet3;
+    
+    private int octet4;
+  
+    private int octet5;
+    
+    private int octet6;
+    
+    private int octet7;
+
+    private int octet8;
+   
+private IpPackage( int paramInt4, int paramInt5, int paramInt6, int paramInt7, int paramInt8) {
+        this.octet1 = 192;
+        this.octet2 = 168;
+        this.octet3 = 77;
+        this.octet4 = paramInt4;
+        this.octet5 = paramInt5;
+        this.octet6 = paramInt6;
+        this.octet7 = paramInt7;
+        this.octet8 = paramInt8;
+      }
+
+  public static IpPackage getIpSuivant( int paramInt4, int paramInt5, int paramInt6, int paramInt7,  int paramInt8 ) {
+    (paramInt4 < 0 || paramInt4 > 255)
+    } 
+    System.out.println("o1 = " + paramInt1);
+    System.out.println("o2 = " + paramInt2);
+    System.out.println("o3 = " + paramInt3);
+    System.out.println("o4 = " + paramInt4);
+    return new IpPackage(paramInt1, paramInt2, paramInt3, paramInt4);
+
+    (paramInt5 < 0 || paramInt5 > 255)
+    }  
+    System.out.println("o1 = " + paramInt1);
+    System.out.println("o2 = " + paramInt2);
+    System.out.println("o3 = " + paramInt3);
+    System.out.println("o4 = " + paramInt5);
+    return new IpPackage(paramInt1, paramInt2, paramInt3, paramInt5);
+
+    (paramInt6 < 0 || paramInt6 > 255)
+    }  
+    System.out.println("o1 = " + paramInt1);
+    System.out.println("o2 = " + paramInt2);
+    System.out.println("o3 = " + paramInt3);
+    System.out.println("o4 = " + paramInt6);
+    return new IpPackage(paramInt1, paramInt2, paramInt3, paramInt6);
+
+    
+    (paramInt7 < 0 || paramInt7 > 255)
+    }  
+    System.out.println("o1 = " + paramInt1);
+    System.out.println("o2 = " + paramInt2);
+    System.out.println("o3 = " + paramInt3);
+    System.out.println("o4 = " + paramInt5);
+    return new IpPackage(paramInt1, paramInt2, paramInt3, paramInt7);
+
+    (paramInt8 < 0 || paramInt8 > 255)
+    }  
+    System.out.println("o1 = " + paramInt1);
+    System.out.println("o2 = " + paramInt2);
+    System.out.println("o3 = " + paramInt3);
+    System.out.println("o4 = " + paramInt6);
+    return new IpPackage(paramInt1, paramInt2, paramInt3, paramInt8);
+
+  }
